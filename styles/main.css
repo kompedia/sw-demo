@@ -1,0 +1,58 @@
+body {
+    background: #0052D4;
+    background: -webkit-linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
+    background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
+    text-align: center;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+
+h1 {
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-shadow: 0 2px 2px #333;
+}
+
+section {
+    margin: 0;
+    padding: 1rem;
+}
+
+.mozilla-image {
+    transition: all 0.5s;
+    width: 40%;
+}
+
+.install-button {
+    background-color: transparent;
+    border: 0.16em solid #FFF;
+    box-sizing: border-box;
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 700;
+    margin: 0 0.3em 0.3em 0;
+    padding: 0.5em 3em;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.install-button:hover,
+.install-button:focus {
+  box-shadow: inset 20em 0 0 0 #FFF;
+  color: #0052D4;
+}
+
+@media all and (max-width: 30em) {
+    .install-button {
+        display: block;
+        margin: 0 auto;
+    }
+}
